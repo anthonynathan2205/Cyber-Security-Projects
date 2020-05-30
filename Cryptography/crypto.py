@@ -1,10 +1,10 @@
-####sample scrypt to encrypt and decrypt
+####sample script to encrypt and decrypt
 
 
 #ask for user input
 a=input("please enter your top secret message: \n")
 
-b=str(input("last 4 diguts of your phone number: \n"))
+b=str(input("last 4 digits of your phone number: \n"))
 
 #validate if phone number entered is 4 digits and extract one number to be used for list rotation stored under variable "d"
 if  len(b)!=4:
